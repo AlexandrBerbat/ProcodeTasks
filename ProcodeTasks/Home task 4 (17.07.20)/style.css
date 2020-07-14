@@ -1,0 +1,47 @@
+*
+{
+    padding: 0;
+    margin: 0;
+
+}
+body
+{
+    background-color:grey;
+}
+
+div
+{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    margin: -60px 0 0 -60px;
+
+
+    border-radius: 5px;
+
+}
+
+button
+{
+    height: 45px;
+    width: 120px;
+
+    padding: 0px;
+    margin: 0px;
+
+    box-shadow: 7px 8px 11px -3px #000000;
+    outline: none;
+
+    border-radius: 5px;
+    background: linear-gradient(to top right, #222862, #5a2455, #a93b5d,#433f41)
+
+
+}
+
+button:active
+{
+    box-shadow: none;
+
+    background: linear-gradient(to top right, #e54e5c,#eaf5eb,#88dedc,#3e4647,#28262a)
+
+}
